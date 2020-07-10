@@ -140,7 +140,7 @@ class App extends Component {
         </div>
         <div className={`keyboardContainer ${!keyboardOpen ? "hidden" : ""}`}>
           <Keyboard
-            ref={r => (this.keyboard = r)}
+            keyboardRef={r => (this.keyboard = r)}
             inputName={this.state.inputName}
             layoutName={this.state.layoutName}
             onChangeAll={inputObj => this.onChangeAll(inputObj)}
