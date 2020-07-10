@@ -88,8 +88,8 @@ class App extends Component {
       console.log(
         "cleared",
         input,
-        this.keyboard.keyboard.options.inputName,
-        this.keyboard.keyboard.input,
+        this.keyboard.options.inputName,
+        this.keyboard.input,
         this.keyboard.getInput()
       );
     });
